@@ -42,6 +42,7 @@ header p {
   display: flex;
   justify-content: space-between;
   margin-top: 3.5em;
+  flex-grow: 1;
 
   /* padding-bottom: 50px; */
   gap: 24px;
@@ -66,9 +67,23 @@ header p {
 .second-row {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 2em 10% 6em 10%;
 }
 .images {
   display: flex;
+  gap: 1em;
+  margin-top: 2em;
+  /* justify-content: space-between; */
+}
+.images div {
+  width: 150px;
+  text-align: center;
+}
+
+.third-row {
+  height: 400px;
+  background-color: #e5e7eb;
 }
 
 /* IMAGES IMAGES IMAGES */
@@ -81,14 +96,14 @@ header p {
   flex-grow: 1;
 }
 .images img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 10px;
 }
-.coffee {
+/* .coffee {
   object-position: 50% 90%;
 }
 .pasta {
   object-position: 43% 50%;
-}
+} */
